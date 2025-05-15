@@ -20,6 +20,10 @@ export class ProgressesService {
       );
   }
 
+  updateProgress(progress: Progress) {
+    return this.http.put<Progress>(`${this.apiUrl}/progresses/${progress.id}`, progress);
+  }
+
   createEmpty(wordset: Wordset): Observable<Progress> {
     const emptyProgress: Omit<Progress, 'id'> = {
       wordsetId: wordset.id,

@@ -1,7 +1,10 @@
 <div class="learn-container">
     <div class="progress-section">
         <div class="progress-bar">
-            <div class="progress-fill" [style.width.%]="100"></div>
+            <div class="progress-fill" [style.width.%]="totalProgressPercentage"></div>
+        </div>
+        <div class="progress-bar slim">
+            <div class="progress-fill total" [style.width.%]="roundProgressPercentage"></div>
         </div>
     </div>
 
