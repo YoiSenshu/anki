@@ -1,0 +1,18 @@
+<div class="wordset-item" [routerLink]="['/wordset', wordset.id]">
+  <div class="wordset-header">
+    <h3>
+      <i class="fas fa-book"></i>
+      {{ wordset.title }}
+    </h3>
+  </div>
+  <div class="wordset-details">
+    <p *ngIf="wordset.description">
+      <i class="fas fa-info-circle"></i>
+      {{ wordset.description }}
+    </p>
+    <p>
+      <i class="fas fa-list"></i>
+      Liczba słów: {{ wordset.wordEntries.length }}
+    </p>
+  </div>
+</div> 

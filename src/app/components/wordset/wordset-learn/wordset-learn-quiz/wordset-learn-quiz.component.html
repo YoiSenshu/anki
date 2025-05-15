@@ -1,0 +1,21 @@
+<div class="quiz-container">
+    <div class="question">
+        <h3>{{ wordEntry.value?.word }}</h3>
+    </div>
+
+    <div class="answers-grid">
+        <div *ngFor="let answer of answers" 
+             class="answer-button" 
+             [class.correct]="showNextButton && answer.isCorrect"
+             [class.incorrect]="answer.isSelected && !answer.isCorrect"
+             (click)="selectAnswer(answer)">
+            {{ answer.text }}
+        </div>
+    </div>
+
+    <button *ngIf="showNextButton" 
+            class="next-button" 
+            (click)="nextQuestion()">
+        Następne
+    </button>
+</div>

@@ -1,0 +1,33 @@
+<div class="learn-container">
+    <div class="progress-section">
+        <div class="progress-bar">
+            <div class="progress-fill" [style.width.%]="100"></div>
+        </div>
+    </div>
+
+    <div class="content" *ngIf="wordset && currentRound">
+        <app-wordset-learn-flashcard
+            *ngIf="currentRound.elements[currentElementIndex].type === 'flashcard'"
+            [wordEntry]="currentWordEntry"
+            (next)="onNext($event)">
+        </app-wordset-learn-flashcard>
+
+        <app-wordset-learn-quiz
+            *ngIf="currentRound.elements[currentElementIndex].type === 'quiz'"
+            [wordEntry]="currentWordEntry"
+            [wordset]="wordset"
+            (next)="onNext($event)">
+        </app-wordset-learn-quiz>
+
+        <app-wordset-learn-definition
+            *ngIf="currentRound.elements[currentElementIndex].type === 'definition'"
+            [wordEntry]="currentWordEntry"
+            (next)="onNext($event)">
+        </app-wordset-learn-definition>
+    </div>
+
+    <div class="round-complete" *ngIf="!currentRound">
+        <h2>Runda zakończona!</h2>
+        <button (click)="startNewRound()">Rozpocznij nową rundę</button>
+    </div>
+</div>

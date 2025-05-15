@@ -1,0 +1,110 @@
+{
+  "wordsets": [
+    {
+      "id": "1",
+      "title": "Przykładowy zestaw",
+      "description": "Opis przykładowego zestawu.",
+      "wordEntries": [
+        {
+          "word": "car",
+          "definition": "samochód"
+        },
+        {
+          "word": "house",
+          "definition": "dom"
+        },
+        {
+          "word": "tree",
+          "definition": "drzewo"
+        },
+        {
+          "word": "book",
+          "definition": "książka"
+        },
+        {
+          "word": "computer",
+          "definition": "komputer"
+        },
+        {
+          "word": "water",
+          "definition": "woda"
+        },
+        {
+          "word": "keyboard",
+          "definition": "klawiatura"
+        },
+        {
+          "word": "cat",
+          "definition": "kot"
+        },
+        {
+          "word": "dog",
+          "definition": "pies"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Nowy zestaw",
+      "description": "",
+      "wordEntries": []
+    },
+    {
+      "id": "3",
+      "title": "Nowy zestaw",
+      "description": "",
+      "wordEntries": []
+    }
+  ],
+  "progresses": [
+    {
+      "id": "1",
+      "wordsetId": 1,
+      "progress": {
+        "notShown": [
+          "car",
+          "house"
+        ],
+        "flashcard": [
+          "tree"
+        ],
+        "quizWrong": [
+          "book"
+        ],
+        "quizCorrect": [
+          "computer",
+          "water"
+        ],
+        "definitionWrong": [
+          "keyboard"
+        ],
+        "definitionCorrect": [
+          "cat",
+          "dog"
+        ]
+      }
+    },
+    {
+      "id": "502f",
+      "wordsetId": "2",
+      "progress": {
+        "flashcard": [],
+        "quizWrong": [],
+        "quizCorrect": [],
+        "definitionWrong": [],
+        "definitionCorrect": []
+      }
+    },
+    {
+      "id": "0ce0",
+      "wordsetId": "3",
+      "progress": {
+        "flashcard": [],
+        "quizWrong": [],
+        "quizCorrect": [],
+        "definitionWrong": [],
+        "definitionCorrect": []
+      }
+    }
+  ]
+}

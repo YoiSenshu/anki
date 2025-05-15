@@ -1,0 +1,38 @@
+<div class="definition-container">
+    <div class="definition">
+        <h3>{{ wordEntry.value?.definition }}</h3>
+    </div>
+
+    <form [formGroup]="definitionForm" (ngSubmit)="onSubmit()" class="word-form">
+        <div class="input-group" [class.correct]="showNextButton && isCorrect" [class.incorrect]="showNextButton && !isCorrect">
+            <input 
+                type="text" 
+                formControlName="word" 
+                placeholder="Wpisz słowo"
+                class="word-input">
+        </div>
+
+        <div *ngIf="showNextButton" class="feedback">
+            <p *ngIf="isCorrect" class="correct-text">Poprawnie!</p>
+            <p *ngIf="!isCorrect" class="incorrect-text">
+                Niepoprawnie. Prawidłowa odpowiedź to: {{ wordEntry.value?.word }}
+            </p>
+        </div>
+
+        <button 
+            *ngIf="!showNextButton" 
+            type="submit" 
+            class="submit-button"
+            [disabled]="definitionForm.invalid">
+            Sprawdź
+        </button>
+
+        <button 
+            *ngIf="showNextButton" 
+            type="button" 
+            class="next-button"
+            (click)="nextQuestion()">
+            Następne
+        </button>
+    </form>
+</div>

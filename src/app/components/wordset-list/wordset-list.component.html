@@ -1,0 +1,7 @@
+<div class="wordset-list">
+  <div class="wordset-list-container">
+    @for (wordset of wordsets; track wordset.id) {
+      <app-wordset-list-item [wordset]="wordset"></app-wordset-list-item>
+    }
+  </div>
+</div> 

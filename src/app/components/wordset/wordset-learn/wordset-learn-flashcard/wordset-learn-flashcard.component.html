@@ -1,0 +1,9 @@
+<div class="wordset-learn-flashcard" [class.flipped]="isFlipped" (click)="flip()">
+    <div class="wordset-learn-flashcard-front">
+        <h3>{{ wordEntry.value?.word }}</h3>
+    </div>
+    <div class="wordset-learn-flashcard-back">
+        <h3>{{ wordEntry.value?.definition }}</h3>
+    </div>
+</div>
+<button class="next-button" (click)="onNext()">Następne</button>

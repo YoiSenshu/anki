@@ -1,0 +1,173 @@
+.wordset-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: #e0e0e0;
+  color: #333;
+  transform: translateX(-2px);
+}
+
+.back-button i {
+  font-size: 1.2rem;
+}
+
+.wordset-info {
+  margin: 1rem 0 2rem;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.description {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.word-count {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.progress-section {
+  margin: 2rem 0;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #4CAF50;
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  margin-top: 0.5rem;
+  text-align: center;
+  color: #666;
+  font-size: 1rem;
+}
+
+.learn-button {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin: 2rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background-color: #2196F3;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.learn-button:hover {
+  background-color: #1976D2;
+}
+
+.learn-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.secondary-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.secondary-button {
+  flex: 1;
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: #666;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.secondary-button:hover {
+  background-color: #e8e8e8;
+  color: #333;
+}
+
+.secondary-button:active {
+  transform: translateY(1px);
+}
+
+.secondary-button i {
+  font-size: 1rem;
+}
+
+.reset-button i {
+  color: #ff6b6b;
+}
+
+.edit-button i {
+  color: #4a90e2;
+}
+
+.words-list {
+  margin-top: 2rem;
+}
+
+.word-item {
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.word {
+  flex: 1;
+  font-weight: bold;
+  padding-right: 1rem;
+  border-right: 1px solid #eee;
+}
+
+.definition {
+  flex: 1;
+  color: #666;
+  padding-left: 1rem;
+} 

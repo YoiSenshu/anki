@@ -1,0 +1,85 @@
+<div class="edit-container" *ngIf="wordset">
+  <form [formGroup]="wordsetForm" (ngSubmit)="onSubmit()">
+    <div class="form-header">
+      <div class="header-left">
+        <button type="button" class="back-button" routerLink="/wordset/{{ wordset.id }}">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <h1>Edytuj Zestaw</h1>
+      </div>
+      <button type="submit" class="save-button" [disabled]="!wordsetForm.valid">
+        <i class="fas fa-save"></i>
+        Zapisz
+      </button>
+    </div>
+
+    <div class="form-section">
+      <div class="form-group">
+        <label for="title">Tytuł</label>
+        <input 
+          type="text" 
+          id="title" 
+          formControlName="title" 
+          class="form-control"
+          [class.is-invalid]="isFieldInvalid('title')"
+          placeholder="Wprowadź tytuł zestawu">
+        <div class="error-message" *ngIf="isFieldInvalid('title')">
+          Tytuł jest wymagany
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="description">Opis</label>
+        <textarea 
+          id="description" 
+          formControlName="description" 
+          class="form-control"
+          placeholder="Wprowadź opis zestawu"
+          rows="3"></textarea>
+      </div>
+    </div>
+
+    <div class="words-section">
+      <div class="section-header">
+        <h2>Słowa</h2>
+      </div>
+
+      <div class="word-entries" formArrayName="wordEntries">
+        <div class="word-entry" *ngFor="let entry of wordEntries.controls; let i = index" [formGroupName]="i">
+          <div class="word-inputs">
+            <input 
+              type="text" 
+              formControlName="word" 
+              class="form-control"
+              [class.is-invalid]="isWordEntryInvalid(i, 'word')"
+              placeholder="Słowo">
+            <input 
+              type="text" 
+              formControlName="definition" 
+              class="form-control"
+              [class.is-invalid]="isWordEntryInvalid(i, 'definition')"
+              placeholder="Definicja">
+          </div>
+          <button type="button" class="delete-button" (click)="removeWordEntry(i)">
+            <i class="fas fa-trash"></i>
+          </button>
+          <div class="error-message" *ngIf="isWordEntryInvalid(i, 'word') || isWordEntryInvalid(i, 'definition')">
+            Oba pola są wymagane
+          </div>
+        </div>
+      </div>
+
+      <button type="button" class="add-button" (click)="addWordEntry()">
+        <i class="fas fa-plus"></i>
+        Dodaj Słowo
+      </button>
+    </div>
+
+    <div class="form-footer">
+      <button type="submit" class="save-button" [disabled]="!wordsetForm.valid">
+        <i class="fas fa-save"></i>
+        Zapisz
+      </button>
+    </div>
+  </form>
+</div>

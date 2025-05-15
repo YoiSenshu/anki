@@ -1,0 +1,40 @@
+<div class="wordset-container" *ngIf="wordset">
+  <div class="header">
+    <button class="back-button" routerLink="/">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+    <h1>{{ wordset.title }}</h1>
+  </div>
+  
+  <div class="wordset-info">
+    <p class="description">{{ wordset.description }}</p>
+    <p class="word-count">Liczba słów: {{ wordset.wordEntries.length }}</p>
+  </div>
+
+  <div class="progress-section">
+    <div class="progress-bar">
+      <div class="progress-fill" [style.width.%]="progressPercentage"></div>
+    </div>
+    <p class="progress-text">Twój postęp w tym zestawie: {{ progressPercentage }}%</p>
+  </div>
+
+  <button class="learn-button" routerLink="/wordset/{{ wordset.id }}/learn">Ucz się</button>
+  
+  <div class="secondary-buttons">
+    <button class="secondary-button reset-button">
+      <i class="fas fa-undo"></i>
+      Zresetuj Postęp
+    </button>
+    <button routerLink="/wordset/{{ wordset.id }}/edit" class="secondary-button edit-button">
+      <i class="fas fa-edit"></i>
+      Edytuj Zestaw
+    </button>
+  </div>
+  
+  <div class="words-list">
+    <div class="word-item" *ngFor="let word of wordset.wordEntries">
+      <div class="word">{{ word.word }}</div>
+      <div class="definition">{{ word.definition }}</div>
+    </div>
+  </div>
+</div>
