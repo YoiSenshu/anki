@@ -1,838 +1,1234 @@
 {
-  "wordsets": [
-    {
-      "id": "1",
-      "title": "Przykładowy zestaw",
-      "description": "Opis przykładowego zestawu.",
-      "wordEntries": [
+    "wordsets": [
         {
-          "word": "car",
-          "definition": "samochód"
+            "id": "1",
+            "title": "Repetytorium Unit 1: Człowiek (część 1)",
+            "description": "Opis zestawu.",
+            "wordEntries": [
+                {
+                    "word": "divorced",
+                    "definition": "rozwiedziony"
+                },
+                {
+                    "word": "female",
+                    "definition": "kobieta"
+                },
+                {
+                    "word": "first name",
+                    "definition": "imię"
+                },
+                {
+                    "word": "gender",
+                    "definition": "płeć"
+                },
+                {
+                    "word": "male",
+                    "definition": "mężczyzna"
+                },
+                {
+                    "word": "marital status",
+                    "definition": "stan cywilny"
+                },
+                {
+                    "word": "married",
+                    "definition": "żonaty"
+                },
+                {
+                    "word": "middle name",
+                    "definition": "drugie imię"
+                },
+                {
+                    "word": "occupation",
+                    "definition": "zawód"
+                },
+                {
+                    "word": "surname",
+                    "definition": "nazwisko"
+                },
+                {
+                    "word": "widowed",
+                    "definition": "owdowiały"
+                },
+                {
+                    "word": "biometric data",
+                    "definition": "dane biometryczne"
+                },
+                {
+                    "word": "citizenship",
+                    "definition": "obywatelstwo"
+                },
+                {
+                    "word": "country of residence",
+                    "definition": "kraj zamieszkania"
+                },
+                {
+                    "word": "distinguishing features",
+                    "definition": "znaki szczególne"
+                },
+                {
+                    "word": "ethnic origin",
+                    "definition": "pochodzenie etniczne"
+                },
+                {
+                    "word": "next of kin",
+                    "definition": "najbliższy krewny"
+                },
+                {
+                    "word": "elderly",
+                    "definition": "starszy"
+                },
+                {
+                    "word": "good-looking",
+                    "definition": "przystojny"
+                },
+                {
+                    "word": "handsome",
+                    "definition": "przystojny"
+                },
+                {
+                    "word": "plain",
+                    "definition": "pospolity"
+                },
+                {
+                    "word": "pretty",
+                    "definition": "ładny"
+                },
+                {
+                    "word": "ugly",
+                    "definition": "brzydki"
+                },
+                {
+                    "word": "in sb's early thirties",
+                    "definition": "być po trzydziestce"
+                },
+                {
+                    "word": "in sb's middle thirties",
+                    "definition": "mieć trzydzieści pięć lat"
+                },
+                {
+                    "word": "in sb's late thirties",
+                    "definition": "być pod czterdziestkę"
+                },
+                {
+                    "word": "of medium height",
+                    "definition": "średniego wzrostu"
+                },
+                {
+                    "word": "muscular",
+                    "definition": "umięśniony"
+                },
+                {
+                    "word": "obese",
+                    "definition": "otyły"
+                },
+                {
+                    "word": "overweight",
+                    "definition": "z nadwagą"
+                },
+                {
+                    "word": "underweight",
+                    "definition": "z niedowagą"
+                },
+                {
+                    "word": "plump",
+                    "definition": "puszysty"
+                },
+                {
+                    "word": "skinny",
+                    "definition": "chudy"
+                },
+                {
+                    "word": "slim",
+                    "definition": "szczupły"
+                },
+                {
+                    "word": "chunky",
+                    "definition": "przysadzisty"
+                },
+                {
+                    "word": "lanky",
+                    "definition": "tyczkowaty"
+                },
+                {
+                    "word": "slim build",
+                    "definition": "szczupła budowa"
+                },
+                {
+                    "word": "medium build",
+                    "definition": "średnia budowa"
+                },
+                {
+                    "word": "stocky build",
+                    "definition": "krępa budowa"
+                },
+                {
+                    "word": "curly",
+                    "definition": "kręcone"
+                },
+                {
+                    "word": "dyed",
+                    "definition": "farbowane"
+                },
+                {
+                    "word": "ginger",
+                    "definition": "rude"
+                },
+                {
+                    "word": "plait",
+                    "definition": "warkocz"
+                },
+                {
+                    "word": "shoulder-length",
+                    "definition": "do ramion"
+                },
+                {
+                    "word": "straight",
+                    "definition": "proste"
+                },
+                {
+                    "word": "wavy",
+                    "definition": "falujące"
+                },
+                {
+                    "word": "fringe",
+                    "definition": "grzywka"
+                },
+                {
+                    "word": "have a centre parting",
+                    "definition": "mieć przedziałek na środku"
+                },
+                {
+                    "word": "have a side parting",
+                    "definition": "mieć przedziałek z boku"
+                },
+                {
+                    "word": "ponytail",
+                    "definition": "kitka"
+                },
+                {
+                    "word": "receding hairline",
+                    "definition": "włosy rzednące na skroniach"
+                },
+                {
+                    "word": "wear your hair loose",
+                    "definition": "nosić włosy rozpuszczone"
+                },
+                {
+                    "word": "wear your hair up",
+                    "definition": "nosić włosy spięte"
+                },
+                {
+                    "word": "spiky",
+                    "definition": "nastroszone włosy"
+                },
+                {
+                    "word": "beard",
+                    "definition": "broda"
+                },
+                {
+                    "word": "freckles",
+                    "definition": "piegi"
+                },
+                {
+                    "word": "moustache",
+                    "definition": "wąsy"
+                },
+                {
+                    "word": "pale",
+                    "definition": "blady"
+                },
+                {
+                    "word": "tanned",
+                    "definition": "opalony"
+                },
+                {
+                    "word": "pierced ears",
+                    "definition": "przekłute uszy"
+                },
+                {
+                    "word": "scar",
+                    "definition": "blizna"
+                },
+                {
+                    "word": "spotty",
+                    "definition": "pryszczaty"
+                },
+                {
+                    "word": "tattoo",
+                    "definition": "tatuaż"
+                },
+                {
+                    "word": "wrinkles",
+                    "definition": "zmarszczki"
+                },
+                {
+                    "word": "birthmark",
+                    "definition": "znamię"
+                },
+                {
+                    "word": "dental brace",
+                    "definition": "aparat na zęby"
+                },
+                {
+                    "word": "dimple",
+                    "definition": "dołek w policzku"
+                },
+                {
+                    "word": "goatee",
+                    "definition": "kozia bródka"
+                },
+                {
+                    "word": "high cheekbones",
+                    "definition": "wystające kości policzkowe"
+                },
+                {
+                    "word": "high forehead",
+                    "definition": "wysokie czoło"
+                },
+                {
+                    "word": "piercing blue eyes",
+                    "definition": "przenikliwie niebieskie oczy"
+                },
+                {
+                    "word": "go for",
+                    "definition": "wybierać"
+                },
+                {
+                    "word": "go for darker colours",
+                    "definition": "wybierać ciemniejsze kolory"
+                },
+                {
+                    "word": "go grey",
+                    "definition": "osiwieć"
+                },
+                {
+                    "word": "go bald",
+                    "definition": "wyłysieć"
+                },
+                {
+                    "word": "paint your nails",
+                    "definition": "malować paznokcie"
+                },
+                {
+                    "word": "put on weight",
+                    "definition": "przybierać na wadze"
+                },
+                {
+                    "word": "lose weight",
+                    "definition": "tracić na wadze"
+                },
+                {
+                    "word": "straighten",
+                    "definition": "prostować"
+                },
+                {
+                    "word": "blouse",
+                    "definition": "bluzka"
+                },
+                {
+                    "word": "boots",
+                    "definition": "wysokie buty"
+                },
+                {
+                    "word": "fleece",
+                    "definition": "bluza polarowa"
+                },
+                {
+                    "word": "high heels",
+                    "definition": "wysokie obcasy"
+                },
+                {
+                    "word": "hoodie",
+                    "definition": "bluza z kapturem"
+                },
+                {
+                    "word": "jacket",
+                    "definition": "kurtka"
+                },
+                {
+                    "word": "jumper",
+                    "definition": "sweter"
+                },
+                {
+                    "word": "pyjamas",
+                    "definition": "piżama"
+                },
+                {
+                    "word": "sneakers",
+                    "definition": "trampki"
+                },
+                {
+                    "word": "shoes",
+                    "definition": "buty"
+                },
+                {
+                    "word": "smart",
+                    "definition": "elegancki"
+                },
+                {
+                    "word": "suit",
+                    "definition": "garnitur"
+                },
+                {
+                    "word": "sweatshirt",
+                    "definition": "bluza sportowa"
+                },
+                {
+                    "word": "tracksuit",
+                    "definition": "dres"
+                },
+                {
+                    "word": "underwear",
+                    "definition": "bielizna"
+                },
+                {
+                    "word": "waistcoat",
+                    "definition": "kamizelka"
+                },
+                {
+                    "word": "ballgown",
+                    "definition": "suknia balowa"
+                },
+                {
+                    "word": "cardigan",
+                    "definition": "rozpinany sweter"
+                },
+                {
+                    "word": "collar",
+                    "definition": "kołnierzyk"
+                },
+                {
+                    "word": "creased",
+                    "definition": "pognieciony"
+                },
+                {
+                    "word": "cuffs",
+                    "definition": "mankiety"
+                },
+                {
+                    "word": "dressing gown",
+                    "definition": "szlafrok"
+                },
+                {
+                    "word": "fluffy",
+                    "definition": "puchaty"
+                },
+                {
+                    "word": "long-sleeved",
+                    "definition": "z długim rękawem"
+                },
+                {
+                    "word": "short-sleeved",
+                    "definition": "z krótkim rękawem"
+                },
+                {
+                    "word": "scruffy",
+                    "definition": "niechlujny"
+                },
+                {
+                    "word": "strapless top",
+                    "definition": "bluzka bez ramiączek"
+                },
+                {
+                    "word": "shabby",
+                    "definition": "obdarty"
+                },
+                {
+                    "word": "sleeveless",
+                    "definition": "bez rękawów"
+                },
+                {
+                    "word": "V-neck",
+                    "definition": "dekolt w szpic"
+                },
+                {
+                    "word": "wellies",
+                    "definition": "kalosze"
+                },
+                {
+                    "word": "belt",
+                    "definition": "pasek"
+                },
+                {
+                    "word": "bracelet",
+                    "definition": "bransoletka"
+                },
+                {
+                    "word": "button",
+                    "definition": "guzik"
+                },
+                {
+                    "word": "earrings",
+                    "definition": "kolczyki"
+                },
+                {
+                    "word": "gloves",
+                    "definition": "rękawiczki"
+                },
+                {
+                    "word": "handbag",
+                    "definition": "torebka"
+                },
+                {
+                    "word": "necklace",
+                    "definition": "naszyjnik"
+                },
+                {
+                    "word": "ring",
+                    "definition": "pierścionek"
+                },
+                {
+                    "word": "scarf",
+                    "definition": "szalik"
+                },
+                {
+                    "word": "tie",
+                    "definition": "krawat"
+                },
+                {
+                    "word": "brooch",
+                    "definition": "broszka"
+                },
+                {
+                    "word": "shoe laces",
+                    "definition": "sznurówki"
+                },
+                {
+                    "word": "slippers",
+                    "definition": "kapcie"
+                },
+                {
+                    "word": "zip-up",
+                    "definition": "na zamek"
+                },
+                {
+                    "word": "checked",
+                    "definition": "w kratę"
+                },
+                {
+                    "word": "cotton",
+                    "definition": "bawełna"
+                },
+                {
+                    "word": "denim",
+                    "definition": "dżinsowy"
+                },
+                {
+                    "word": "fur",
+                    "definition": "futro"
+                },
+                {
+                    "word": "leather",
+                    "definition": "skóra"
+                },
+                {
+                    "word": "linen",
+                    "definition": "lniany"
+                },
+                {
+                    "word": "silk",
+                    "definition": "jedwab"
+                },
+                {
+                    "word": "spotted",
+                    "definition": "w kropki"
+                },
+                {
+                    "word": "striped",
+                    "definition": "w paski"
+                },
+                {
+                    "word": "wool",
+                    "definition": "wełna"
+                },
+                {
+                    "word": "lacy",
+                    "definition": "koronkowy"
+                },
+                {
+                    "word": "lined",
+                    "definition": "na podszewce"
+                },
+                {
+                    "word": "tartan",
+                    "definition": "w szkocką kratę"
+                },
+                {
+                    "word": "velvet",
+                    "definition": "aksamitny"
+                },
+                {
+                    "word": "absent-minded",
+                    "definition": "roztargniony"
+                },
+                {
+                    "word": "bad-tempered",
+                    "definition": "wybuchowy"
+                },
+                {
+                    "word": "bossy",
+                    "definition": "apodyktyczny"
+                },
+                {
+                    "word": "careful",
+                    "definition": "ostrożny"
+                },
+                {
+                    "word": "careless",
+                    "definition": "nieostrożny"
+                },
+                {
+                    "word": "confident",
+                    "definition": "pewny siebie"
+                },
+                {
+                    "word": "overconfident",
+                    "definition": "zbyt pewny siebie"
+                },
+                {
+                    "word": "easygoing",
+                    "definition": "wyluzowany"
+                },
+                {
+                    "word": "extrovert",
+                    "definition": "ekstrawertyk"
+                },
+                {
+                    "word": "gentle",
+                    "definition": "delikatny"
+                },
+                {
+                    "word": "helpful",
+                    "definition": "uczynny"
+                },
+                {
+                    "word": "unhelpful",
+                    "definition": "nieskory do pomocy"
+                },
+                {
+                    "word": "honest",
+                    "definition": "uczciwy"
+                },
+                {
+                    "word": "dishonest",
+                    "definition": "nieuczciwy"
+                },
+                {
+                    "word": "imaginative",
+                    "definition": "pomysłowy"
+                },
+                {
+                    "word": "unimaginative",
+                    "definition": "bez wyobraźni"
+                },
+                {
+                    "word": "introvert",
+                    "definition": "introwertyk"
+                },
+                {
+                    "word": "messy",
+                    "definition": "bałaganiarski"
+                },
+                {
+                    "word": "modest",
+                    "definition": "skromny"
+                },
+                {
+                    "word": "narrow-minded",
+                    "definition": "ograniczony"
+                },
+                {
+                    "word": "optimistic",
+                    "definition": "optymistyczny"
+                },
+                {
+                    "word": "pessimistic",
+                    "definition": "pesymistyczny"
+                },
+                {
+                    "word": "outgoing",
+                    "definition": "otwarty"
+                },
+                {
+                    "word": "patient",
+                    "definition": "cierpliwy"
+                },
+                {
+                    "word": "impatient",
+                    "definition": "niecierpliwy"
+                },
+                {
+                    "word": "polite",
+                    "definition": "uprzejmy"
+                },
+                {
+                    "word": "impolite",
+                    "definition": "nieuprzejmy"
+                },
+                {
+                    "word": "reliable",
+                    "definition": "solidny"
+                },
+                {
+                    "word": "unreliable",
+                    "definition": "niesolidny"
+                },
+                {
+                    "word": "selfish",
+                    "definition": "samolubny"
+                },
+                {
+                    "word": "unselfish",
+                    "definition": "bezinteresowny"
+                },
+                {
+                    "word": "sensitive",
+                    "definition": "wrażliwy"
+                },
+                {
+                    "word": "sincere",
+                    "definition": "szczery"
+                },
+                {
+                    "word": "sociable",
+                    "definition": "towarzyski"
+                },
+                {
+                    "word": "unsociable",
+                    "definition": "nietowarzyski"
+                },
+                {
+                    "word": "tidy",
+                    "definition": "schludny"
+                },
+                {
+                    "word": "untidy",
+                    "definition": "niechlujny"
+                },
+                {
+                    "word": "tolerant",
+                    "definition": "tolerancyjny"
+                },
+                {
+                    "word": "intolerant",
+                    "definition": "nietolerancyjny"
+                },
+                {
+                    "word": "trustworthy",
+                    "definition": "godny zaufania"
+                },
+                {
+                    "word": "vain",
+                    "definition": "próżny"
+                },
+                {
+                    "word": "bold",
+                    "definition": "odważny"
+                },
+                {
+                    "word": "conceited",
+                    "definition": "zarozumiały"
+                },
+                {
+                    "word": "cowardly",
+                    "definition": "tchórzliwy"
+                },
+                {
+                    "word": "eccentric",
+                    "definition": "ekscentryczny"
+                },
+                {
+                    "word": "humble",
+                    "definition": "prosty"
+                },
+                {
+                    "word": "materialistic",
+                    "definition": "materialistyczny"
+                },
+                {
+                    "word": "moody",
+                    "definition": "kapryśny"
+                },
+                {
+                    "word": "straightforward",
+                    "definition": "bezpośredni"
+                },
+                {
+                    "word": "sympathetic",
+                    "definition": "życzliwy"
+                },
+                {
+                    "word": "timid",
+                    "definition": "nieśmiały"
+                },
+                {
+                    "word": "withdrawn",
+                    "definition": "zamknięty w sobie"
+                }
+            ]
         },
         {
-          "word": "house",
-          "definition": "dom"
-        },
-        {
-          "word": "tree",
-          "definition": "drzewo"
-        },
-        {
-          "word": "book",
-          "definition": "książka"
-        },
-        {
-          "word": "computer",
-          "definition": "komputer"
-        },
-        {
-          "word": "water",
-          "definition": "woda"
-        },
-        {
-          "word": "keyboard",
-          "definition": "klawiatura"
-        },
-        {
-          "word": "cat",
-          "definition": "kot"
-        },
-        {
-          "word": "dog",
-          "definition": "pies"
+            "id": "2",
+            "title": "Repetytorium Unit 1: Człowiek (część 2)",
+            "description": "Opis zestawu.",
+            "wordEntries": [
+                {
+                    "word": "annoyed",
+                    "definition": "zirytowany"
+                },
+                {
+                    "word": "anxious",
+                    "definition": "zaniepokojony"
+                },
+                {
+                    "word": "be in a good mood",
+                    "definition": "być w dobrym humorze"
+                },
+                {
+                    "word": "be in a bad mood",
+                    "definition": "być w złym humorze"
+                },
+                {
+                    "word": "embarrassed",
+                    "definition": "zawstydzony"
+                },
+                {
+                    "word": "exhausted",
+                    "definition": "wyczerpany"
+                },
+                {
+                    "word": "frightened",
+                    "definition": "przerażony"
+                },
+                {
+                    "word": "pleased",
+                    "definition": "zadowolony"
+                },
+                {
+                    "word": "scared",
+                    "definition": "wystraszony"
+                },
+                {
+                    "word": "stressed",
+                    "definition": "zestresowany"
+                },
+                {
+                    "word": "surprised",
+                    "definition": "zdziwiony"
+                },
+                {
+                    "word": "tired",
+                    "definition": "zmęczony"
+                },
+                {
+                    "word": "upset",
+                    "definition": "przygnębiony"
+                },
+                {
+                    "word": "worried",
+                    "definition": "zmartwiony"
+                },
+                {
+                    "word": "be frustrated with sth",
+                    "definition": "być sfrustrowanym czymś"
+                },
+                {
+                    "word": "get frustrated with sth",
+                    "definition": "zirytować się czymś"
+                },
+                {
+                    "word": "be over the moon",
+                    "definition": "być wniebowziętym"
+                },
+                {
+                    "word": "delighted",
+                    "definition": "zachwycony"
+                },
+                {
+                    "word": "feel blue",
+                    "definition": "być przygnębionym"
+                },
+                {
+                    "word": "get green with envy",
+                    "definition": "zzielenieć z zazdrości"
+                },
+                {
+                    "word": "go pale",
+                    "definition": "zblednąć"
+                },
+                {
+                    "word": "go red",
+                    "definition": "zaczerwienić się"
+                },
+                {
+                    "word": "hit the roof",
+                    "definition": "wściec się"
+                },
+                {
+                    "word": "petrified",
+                    "definition": "przerażony"
+                },
+                {
+                    "word": "stunned",
+                    "definition": "oniemiały"
+                },
+                {
+                    "word": "worn out",
+                    "definition": "wycieńczony"
+                },
+                {
+                    "word": "adore",
+                    "definition": "uwielbiać"
+                },
+                {
+                    "word": "be a fan of sb",
+                    "definition": "być fanem kogoś"
+                },
+                {
+                    "word": "be a fan of sth",
+                    "definition": "być fanem czegoś"
+                },
+                {
+                    "word": "be hopeless at sth",
+                    "definition": "być beznadziejnym w czymś"
+                },
+                {
+                    "word": "be into sth",
+                    "definition": "zajmować się czymś"
+                },
+                {
+                    "word": "be keen on sth",
+                    "definition": "interesować się czymś"
+                },
+                {
+                    "word": "be mad about sb",
+                    "definition": "szaleć za kimś"
+                },
+                {
+                    "word": "be mad about sth",
+                    "definition": "szaleć za czymś"
+                },
+                {
+                    "word": "can't stand",
+                    "definition": "nie znosić"
+                },
+                {
+                    "word": "cut down on sth",
+                    "definition": "ograniczać ilość czegoś"
+                },
+                {
+                    "word": "indoor activities",
+                    "definition": "aktywności wykonywane wewnątrz budynków"
+                },
+                {
+                    "word": "outdoor activities",
+                    "definition": "aktywności wykonywane na zewnątrz budynków"
+                },
+                {
+                    "word": "take up a hobby",
+                    "definition": "znaleźć sobie jakieś hobby"
+                },
+                {
+                    "word": "take up a sport",
+                    "definition": "zacząć uprawiać sport"
+                },
+                {
+                    "word": "approve of sth",
+                    "definition": "pochwalać coś"
+                },
+                {
+                    "word": "disapprove of sth",
+                    "definition": "nie pochwalać czegoś"
+                },
+                {
+                    "word": "attitude towards sth",
+                    "definition": "postawa wobec czegoś"
+                },
+                {
+                    "word": "change one's mind",
+                    "definition": "zmienić zdanie"
+                },
+                {
+                    "word": "freedom of speech",
+                    "definition": "wolność słowa"
+                },
+                {
+                    "word": "kindness",
+                    "definition": "życzliwość"
+                },
+                {
+                    "word": "respect",
+                    "definition": "szacunek"
+                },
+                {
+                    "word": "take pride in sth",
+                    "definition": "być z czegoś dumnym"
+                },
+                {
+                    "word": "value",
+                    "definition": "wartość"
+                },
+                {
+                    "word": "wisdom",
+                    "definition": "mądrość"
+                },
+                {
+                    "word": "be indifferent to sth",
+                    "definition": "być obojętnym na coś"
+                },
+                {
+                    "word": "compassion",
+                    "definition": "współczucie"
+                },
+                {
+                    "word": "loyalty",
+                    "definition": "lojalność"
+                },
+                {
+                    "word": "morality",
+                    "definition": "moralność"
+                },
+                {
+                    "word": "prosperity",
+                    "definition": "dobrobyt"
+                },
+                {
+                    "word": "diversity",
+                    "definition": "różnorodność"
+                },
+                {
+                    "word": "solidarity",
+                    "definition": "solidarność"
+                },
+                {
+                    "word": "virtue",
+                    "definition": "cnota"
+                },
+                {
+                    "word": "cultural norms",
+                    "definition": "normy kulturowe"
+                },
+                {
+                    "word": "legal norms",
+                    "definition": "normy prawne"
+                },
+                {
+                    "word": "admire sb for sth",
+                    "definition": "podziwiać kogoś za coś"
+                },
+                {
+                    "word": "be a role-model",
+                    "definition": "być wzorem do naśladowania"
+                },
+                {
+                    "word": "be inspired by sb",
+                    "definition": "zainspirować się kimś"
+                },
+                {
+                    "word": "be inspired by sth",
+                    "definition": "zainspirować się czymś"
+                },
+                {
+                    "word": "look up to sb",
+                    "definition": "podziwiać kogoś"
+                },
+                {
+                    "word": "self-esteem",
+                    "definition": "samoocena"
+                },
+                {
+                    "word": "challenge authority",
+                    "definition": "kwestionować autorytet"
+                },
+                {
+                    "word": "imitate sb",
+                    "definition": "naśladować kogoś"
+                },
+                {
+                    "word": "imitate sth",
+                    "definition": "naśladować coś"
+                },
+                {
+                    "word": "inspirational",
+                    "definition": "inspirujący"
+                },
+                {
+                    "word": "recognise one's authority",
+                    "definition": "uznawać czyjś autorytet"
+                },
+                {
+                    "word": "be in awe of sb",
+                    "definition": "być pod wrażeniem kogoś"
+                },
+                {
+                    "word": "be in awe of sth",
+                    "definition": "być pod wrażeniem czegoś"
+                },
+                {
+                    "word": "cultural identity",
+                    "definition": "tożsamość kulturowa"
+                },
+                {
+                    "word": "define yourself",
+                    "definition": "zdefiniować siebie"
+                },
+                {
+                    "word": "individuality",
+                    "definition": "indywidualność"
+                },
+                {
+                    "word": "integrity",
+                    "definition": "integralność"
+                },
+                {
+                    "word": "moral code",
+                    "definition": "kodeks moralny"
+                },
+                {
+                    "word": "recognise one's strengths",
+                    "definition": "rozpoznać swoje mocne strony"
+                },
+                {
+                    "word": "self-image",
+                    "definition": "obraz siebie"
+                },
+                {
+                    "word": "sense of self",
+                    "definition": "poczucie siebie"
+                },
+                {
+                    "word": "generate an alternative",
+                    "definition": "wytworzyć alternatywne rozwiązanie"
+                },
+                {
+                    "word": "come up with an idea",
+                    "definition": "wpaść na pomysł"
+                },
+                {
+                    "word": "think outside the box",
+                    "definition": "myśleć w nieszablonowy sposób"
+                },
+                {
+                    "word": "think creatively",
+                    "definition": "myśleć w twórczy sposób"
+                },
+                {
+                    "word": "solve a problem",
+                    "definition": "rozwiązać problem"
+                },
+                {
+                    "word": "work out a dilemma",
+                    "definition": "znaleźć rozwiązanie"
+                },
+                {
+                    "word": "think from different perspectives",
+                    "definition": "rozpatrywać kwestię z różnych punktów widzenia"
+                },
+                {
+                    "word": "stand out from the crowd",
+                    "definition": "wyróżniać się"
+                },
+                {
+                    "word": "communication breakdown",
+                    "definition": "załamanie komunikacji"
+                },
+                {
+                    "word": "core values",
+                    "definition": "wartości fundamentalne dla danej osoby"
+                },
+                {
+                    "word": "gain self-esteem",
+                    "definition": "zyskać poczucie własnej wartości"
+                },
+                {
+                    "word": "foster cooperation",
+                    "definition": "sprzyjać współpracy"
+                },
+                {
+                    "word": "cross one's legs",
+                    "definition": "skrzyżować nogi"
+                },
+                {
+                    "word": "fidget",
+                    "definition": "kręcić się"
+                },
+                {
+                    "word": "fold one's arms",
+                    "definition": "założyć ręce"
+                },
+                {
+                    "word": "hang one's head",
+                    "definition": "zwiesić głowę"
+                },
+                {
+                    "word": "immaculate",
+                    "definition": "nieskazitelny"
+                },
+                {
+                    "word": "inbuilt",
+                    "definition": "naturalny"
+                },
+                {
+                    "word": "make eye contact",
+                    "definition": "nawiązać kontakt wzrokowy"
+                },
+                {
+                    "word": "move briskly",
+                    "definition": "dziarsko się ruszać"
+                },
+                {
+                    "word": "reveal",
+                    "definition": "odsłonić"
+                },
+                {
+                    "word": "roll one's eyes",
+                    "definition": "przewracać oczami"
+                },
+                {
+                    "word": "engage in sth",
+                    "definition": "zaangażować się w coś"
+                },
+                {
+                    "word": "increase one's life expectancy",
+                    "definition": "zwiększyć oczekiwaną długość życia"
+                },
+                {
+                    "word": "pass on",
+                    "definition": "przekazać"
+                },
+                {
+                    "word": "realize one's full growth potential",
+                    "definition": "zrealizować pełen potencjał wzrostu"
+                },
+                {
+                    "word": "reduce in size",
+                    "definition": "zmniejszyć rozmiar"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": "2",
-      "title": "Repetytorium Unit 1: Człowiek (część 1)",
-      "description": "Opis zestawu.",
-      "wordEntries": [
-        {
-          "word": "divorced",
-          "definition": "rozwiedziony"
-        },
-        {
-          "word": "female",
-          "definition": "kobieta"
-        },
-        {
-          "word": "first name",
-          "definition": "imię"
-        },
-        {
-          "word": "gender",
-          "definition": "płeć"
-        },
-        {
-          "word": "male",
-          "definition": "mężczyzna"
-        },
-        {
-          "word": "marital status",
-          "definition": "stan cywilny"
-        },
-        {
-          "word": "married",
-          "definition": "żonaty"
-        },
-        {
-          "word": "middle name",
-          "definition": "drugie imię"
-        },
-        {
-          "word": "occupation",
-          "definition": "zawód"
-        },
-        {
-          "word": "surname",
-          "definition": "nazwisko"
-        },
-        {
-          "word": "widowed",
-          "definition": "owdowiały"
-        },
-        {
-          "word": "biometric data",
-          "definition": "dane biometryczne"
-        },
-        {
-          "word": "citizenship",
-          "definition": "obywatelstwo"
-        },
-        {
-          "word": "country of residence",
-          "definition": "kraj zamieszkania"
-        },
-        {
-          "word": "distinguishing features",
-          "definition": "znaki szczególne"
-        },
-        {
-          "word": "ethnic origin",
-          "definition": "pochodzenie etniczne"
-        },
-        {
-          "word": "next of kin",
-          "definition": "najbliższy krewny"
-        },
-        {
-          "word": "elderly",
-          "definition": "starszy"
-        },
-        {
-          "word": "good-looking",
-          "definition": "przystojny"
-        },
-        {
-          "word": "handsome",
-          "definition": "przystojny"
-        },
-        {
-          "word": "plain",
-          "definition": "pospolity"
-        },
-        {
-          "word": "pretty",
-          "definition": "ładny"
-        },
-        {
-          "word": "ugly",
-          "definition": "brzydki"
-        },
-        {
-          "word": "in sb's early thirties",
-          "definition": "być po trzydziestce"
-        },
-        {
-          "word": "in sb's middle thirties",
-          "definition": "mieć trzydzieści pięć lat"
-        },
-        {
-          "word": "in sb's late thirties",
-          "definition": "być pod czterdziestkę"
-        },
-        {
-          "word": "of medium height",
-          "definition": "średniego wzrostu"
-        },
-        {
-          "word": "muscular",
-          "definition": "umięśniony"
-        },
-        {
-          "word": "obese",
-          "definition": "otyły"
-        },
-        {
-          "word": "overweight",
-          "definition": "z nadwagą"
-        },
-        {
-          "word": "underweight",
-          "definition": "z niedowagą"
-        },
-        {
-          "word": "plump",
-          "definition": "puszysty"
-        },
-        {
-          "word": "skinny",
-          "definition": "chudy"
-        },
-        {
-          "word": "slim",
-          "definition": "szczupły"
-        },
-        {
-          "word": "chunky",
-          "definition": "przysadzisty"
-        },
-        {
-          "word": "lanky",
-          "definition": "tyczkowaty"
-        },
-        {
-          "word": "slim build",
-          "definition": "szczupła budowa"
-        },
-        {
-          "word": "medium build",
-          "definition": "średnia budowa"
-        },
-        {
-          "word": "stocky build",
-          "definition": "krępa budowa"
-        },
-        {
-          "word": "curly",
-          "definition": "kręcone"
-        },
-        {
-          "word": "dyed",
-          "definition": "farbowane"
-        },
-        {
-          "word": "ginger",
-          "definition": "rude"
-        },
-        {
-          "word": "plait",
-          "definition": "warkocz"
-        },
-        {
-          "word": "shoulder-length",
-          "definition": "do ramion"
-        },
-        {
-          "word": "straight",
-          "definition": "proste"
-        },
-        {
-          "word": "wavy",
-          "definition": "falujące"
-        },
-        {
-          "word": "fringe",
-          "definition": "grzywka"
-        },
-        {
-          "word": "have a centre parting",
-          "definition": "mieć przedziałek na środku"
-        },
-        {
-          "word": "have a side parting",
-          "definition": "mieć przedziałek z boku"
-        },
-        {
-          "word": "ponytail",
-          "definition": "kitka"
-        },
-        {
-          "word": "receding hairline",
-          "definition": "włosy rzednące na skroniach"
-        },
-        {
-          "word": "wear your hair loose",
-          "definition": "nosić włosy rozpuszczone"
-        },
-        {
-          "word": "wear your hair up",
-          "definition": "nosić włosy spięte"
-        },
-        {
-          "word": "spiky",
-          "definition": "nastroszone włosy"
-        },
-        {
-          "word": "beard",
-          "definition": "broda"
-        },
-        {
-          "word": "freckles",
-          "definition": "piegi"
-        },
-        {
-          "word": "moustache",
-          "definition": "wąsy"
-        },
-        {
-          "word": "pale",
-          "definition": "blady"
-        },
-        {
-          "word": "tanned",
-          "definition": "opalony"
-        },
-        {
-          "word": "pierced ears",
-          "definition": "przekłute uszy"
-        },
-        {
-          "word": "scar",
-          "definition": "blizna"
-        },
-        {
-          "word": "spotty",
-          "definition": "pryszczaty"
-        },
-        {
-          "word": "tattoo",
-          "definition": "tatuaż"
-        },
-        {
-          "word": "wrinkles",
-          "definition": "zmarszczki"
-        },
-        {
-          "word": "birthmark",
-          "definition": "znamię"
-        },
-        {
-          "word": "dental brace",
-          "definition": "aparat na zęby"
-        },
-        {
-          "word": "dimple",
-          "definition": "dołek w policzku"
-        },
-        {
-          "word": "goatee",
-          "definition": "kozia bródka"
-        },
-        {
-          "word": "high cheekbones",
-          "definition": "wystające kości policzkowe"
-        },
-        {
-          "word": "high forehead",
-          "definition": "wysokie czoło"
-        },
-        {
-          "word": "piercing blue eyes",
-          "definition": "przenikliwie niebieskie oczy"
-        },
-        {
-          "word": "go for",
-          "definition": "wybierać"
-        },
-        {
-          "word": "go for darker colours",
-          "definition": "wybierać ciemniejsze kolory"
-        },
-        {
-          "word": "go grey",
-          "definition": "osiwieć"
-        },
-        {
-          "word": "go bald",
-          "definition": "wyłysieć"
-        },
-        {
-          "word": "paint your nails",
-          "definition": "malować paznokcie"
-        },
-        {
-          "word": "put on weight",
-          "definition": "przybierać na wadze"
-        },
-        {
-          "word": "lose weight",
-          "definition": "tracić na wadze"
-        },
-        {
-          "word": "straighten",
-          "definition": "prostować"
-        },
-        {
-          "word": "blouse",
-          "definition": "bluzka"
-        },
-        {
-          "word": "boots",
-          "definition": "wysokie buty"
-        },
-        {
-          "word": "fleece",
-          "definition": "bluza polarowa"
-        },
-        {
-          "word": "high heels",
-          "definition": "wysokie obcasy"
-        },
-        {
-          "word": "hoodie",
-          "definition": "bluza z kapturem"
-        },
-        {
-          "word": "jacket",
-          "definition": "kurtka"
-        },
-        {
-          "word": "jumper",
-          "definition": "sweter"
-        },
-        {
-          "word": "pyjamas",
-          "definition": "piżama"
-        },
-        {
-          "word": "sneakers",
-          "definition": "trampki"
-        },
-        {
-          "word": "shoes",
-          "definition": "buty"
-        },
-        {
-          "word": "smart",
-          "definition": "elegancki"
-        },
-        {
-          "word": "suit",
-          "definition": "garnitur"
-        },
-        {
-          "word": "sweatshirt",
-          "definition": "bluza sportowa"
-        },
-        {
-          "word": "tracksuit",
-          "definition": "dres"
-        },
-        {
-          "word": "underwear",
-          "definition": "bielizna"
-        },
-        {
-          "word": "waistcoat",
-          "definition": "kamizelka"
-        },
-        {
-          "word": "ballgown",
-          "definition": "suknia balowa"
-        },
-        {
-          "word": "cardigan",
-          "definition": "rozpinany sweter"
-        },
-        {
-          "word": "collar",
-          "definition": "kołnierzyk"
-        },
-        {
-          "word": "creased",
-          "definition": "pognieciony"
-        },
-        {
-          "word": "cuffs",
-          "definition": "mankiety"
-        },
-        {
-          "word": "dressing gown",
-          "definition": "szlafrok"
-        },
-        {
-          "word": "fluffy",
-          "definition": "puchaty"
-        },
-        {
-          "word": "long-sleeved",
-          "definition": "z długim rękawem"
-        },
-        {
-          "word": "short-sleeved",
-          "definition": "z krótkim rękawem"
-        },
-        {
-          "word": "scruffy",
-          "definition": "niechlujny"
-        },
-        {
-          "word": "strapless top",
-          "definition": "bluzka bez ramiączek"
-        },
-        {
-          "word": "shabby",
-          "definition": "obdarty"
-        },
-        {
-          "word": "sleeveless",
-          "definition": "bez rękawów"
-        },
-        {
-          "word": "V-neck",
-          "definition": "dekolt w szpic"
-        },
-        {
-          "word": "wellies",
-          "definition": "kalosze"
-        },
-        {
-          "word": "belt",
-          "definition": "pasek"
-        },
-        {
-          "word": "bracelet",
-          "definition": "bransoletka"
-        },
-        {
-          "word": "button",
-          "definition": "guzik"
-        },
-        {
-          "word": "earrings",
-          "definition": "kolczyki"
-        },
-        {
-          "word": "gloves",
-          "definition": "rękawiczki"
-        },
-        {
-          "word": "handbag",
-          "definition": "torebka"
-        },
-        {
-          "word": "necklace",
-          "definition": "naszyjnik"
-        },
-        {
-          "word": "ring",
-          "definition": "pierścionek"
-        },
-        {
-          "word": "scarf",
-          "definition": "szalik"
-        },
-        {
-          "word": "tie",
-          "definition": "krawat"
-        },
-        {
-          "word": "brooch",
-          "definition": "broszka"
-        },
-        {
-          "word": "shoe laces",
-          "definition": "sznurówki"
-        },
-        {
-          "word": "slippers",
-          "definition": "kapcie"
-        },
-        {
-          "word": "zip-up",
-          "definition": "na zamek"
-        },
-        {
-          "word": "checked",
-          "definition": "w kratę"
-        },
-        {
-          "word": "cotton",
-          "definition": "bawełna"
-        },
-        {
-          "word": "denim",
-          "definition": "dżinsowy"
-        },
-        {
-          "word": "fur",
-          "definition": "futro"
-        },
-        {
-          "word": "leather",
-          "definition": "skóra"
-        },
-        {
-          "word": "linen",
-          "definition": "lniany"
-        },
-        {
-          "word": "silk",
-          "definition": "jedwab"
-        },
-        {
-          "word": "spotted",
-          "definition": "w kropki"
-        },
-        {
-          "word": "striped",
-          "definition": "w paski"
-        },
-        {
-          "word": "wool",
-          "definition": "wełna"
-        },
-        {
-          "word": "lacy",
-          "definition": "koronkowy"
-        },
-        {
-          "word": "lined",
-          "definition": "na podszewce"
-        },
-        {
-          "word": "tartan",
-          "definition": "w szkocką kratę"
-        },
-        {
-          "word": "velvet",
-          "definition": "aksamitny"
-        },
-        {
-          "word": "absent-minded",
-          "definition": "roztargniony"
-        },
-        {
-          "word": "bad-tempered",
-          "definition": "wybuchowy"
-        },
-        {
-          "word": "bossy",
-          "definition": "apodyktyczny"
-        },
-        {
-          "word": "careful",
-          "definition": "ostrożny"
-        },
-        {
-          "word": "careless",
-          "definition": "nieostrożny"
-        },
-        {
-          "word": "confident",
-          "definition": "pewny siebie"
-        },
-        {
-          "word": "overconfident",
-          "definition": "zbyt pewny siebie"
-        },
-        {
-          "word": "easygoing",
-          "definition": "wyluzowany"
-        },
-        {
-          "word": "extrovert",
-          "definition": "ekstrawertyk"
-        },
-        {
-          "word": "gentle",
-          "definition": "delikatny"
-        },
-        {
-          "word": "helpful",
-          "definition": "uczynny"
-        },
-        {
-          "word": "unhelpful",
-          "definition": "nieskory do pomocy"
-        },
-        {
-          "word": "honest",
-          "definition": "uczciwy"
-        },
-        {
-          "word": "dishonest",
-          "definition": "nieuczciwy"
-        },
-        {
-          "word": "imaginative",
-          "definition": "pomysłowy"
-        },
-        {
-          "word": "unimaginative",
-          "definition": "bez wyobraźni"
-        },
-        {
-          "word": "introvert",
-          "definition": "introwertyk"
-        },
-        {
-          "word": "messy",
-          "definition": "bałaganiarski"
-        },
-        {
-          "word": "modest",
-          "definition": "skromny"
-        },
-        {
-          "word": "narrow-minded",
-          "definition": "ograniczony"
-        },
-        {
-          "word": "optimistic",
-          "definition": "optymistyczny"
-        },
-        {
-          "word": "pessimistic",
-          "definition": "pesymistyczny"
-        },
-        {
-          "word": "outgoing",
-          "definition": "otwarty"
-        },
-        {
-          "word": "patient",
-          "definition": "cierpliwy"
-        },
-        {
-          "word": "impatient",
-          "definition": "niecierpliwy"
-        },
-        {
-          "word": "polite",
-          "definition": "uprzejmy"
-        },
-        {
-          "word": "impolite",
-          "definition": "nieuprzejmy"
-        },
-        {
-          "word": "reliable",
-          "definition": "solidny"
-        },
-        {
-          "word": "unreliable",
-          "definition": "niesolidny"
-        },
-        {
-          "word": "selfish",
-          "definition": "samolubny"
-        },
-        {
-          "word": "unselfish",
-          "definition": "bezinteresowny"
-        },
-        {
-          "word": "sensitive",
-          "definition": "wrażliwy"
-        },
-        {
-          "word": "sincere",
-          "definition": "szczery"
-        },
-        {
-          "word": "sociable",
-          "definition": "towarzyski"
-        },
-        {
-          "word": "unsociable",
-          "definition": "nietowarzyski"
-        },
-        {
-          "word": "tidy",
-          "definition": "schludny"
-        },
-        {
-          "word": "untidy",
-          "definition": "niechlujny"
-        },
-        {
-          "word": "tolerant",
-          "definition": "tolerancyjny"
-        },
-        {
-          "word": "intolerant",
-          "definition": "nietolerancyjny"
-        },
-        {
-          "word": "trustworthy",
-          "definition": "godny zaufania"
-        },
-        {
-          "word": "vain",
-          "definition": "próżny"
-        },
-        {
-          "word": "bold",
-          "definition": "odważny"
-        },
-        {
-          "word": "conceited",
-          "definition": "zarozumiały"
-        },
-        {
-          "word": "cowardly",
-          "definition": "tchórzliwy"
-        },
-        {
-          "word": "eccentric",
-          "definition": "ekscentryczny"
-        },
-        {
-          "word": "humble",
-          "definition": "prosty"
-        },
-        {
-          "word": "materialistic",
-          "definition": "materialistyczny"
-        },
-        {
-          "word": "moody",
-          "definition": "kapryśny"
-        },
-        {
-          "word": "straightforward",
-          "definition": "bezpośredni"
-        },
-        {
-          "word": "sympathetic",
-          "definition": "życzliwy"
-        },
-        {
-          "word": "timid",
-          "definition": "nieśmiały"
-        },
-        {
-          "word": "withdrawn",
-          "definition": "zamknięty w sobie"
+    ],
+    "progresses": [
+        {
+            "id": "1",
+            "wordsetId": 1,
+            "progress": {
+                "flashcard": [],
+                "quizWrong": [],
+                "quizCorrect": [],
+                "definitionWrong": [],
+                "definitionCorrect": []
+            }
+        },
+        {
+            "id": "2",
+            "wordsetId": 2,
+            "progress": {
+                "flashcard": [],
+                "quizWrong": [],
+                "quizCorrect": [],
+                "definitionWrong": [],
+                "definitionCorrect": []
+            }
         }
-      ]
-    }
-  ],
-  "progresses": [
-    {
-      "id": "1",
-      "wordsetId": 1,
-      "progress": {
-        "flashcard": [],
-        "quizWrong": [],
-        "quizCorrect": [],
-        "definitionWrong": [],
-        "definitionCorrect": []
-      }
-    },
-    {
-      "id": "2",
-      "wordsetId": 2,
-      "progress": {
-        "flashcard": [],
-        "quizWrong": [],
-        "quizCorrect": [],
-        "definitionWrong": [],
-        "definitionCorrect": []
-      }
-    }
-  ]
+    ]
 }
